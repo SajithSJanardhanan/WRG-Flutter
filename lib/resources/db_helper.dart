@@ -8,7 +8,6 @@ class DbHelper {
   static Future initialize() async {
     await Hive.initFlutter();
     Hive.registerAdapter(ListRespModelAdapter());
-   // await Hive.openBox<ListRespModel>(HiveBoxes.home);
     return;
   }
 

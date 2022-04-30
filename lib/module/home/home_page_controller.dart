@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import 'package:hive/hive.dart';
 import 'package:wrg/common_comtrollers/base_controller.dart';
 import 'package:wrg/models/list_res_model.dart';
-import 'package:wrg/models/user_model.dart';
 import 'package:wrg/module/user_detail_page/user_detail_page.dart';
 import 'package:wrg/resources/api_provider_home.dart';
 import 'package:wrg/utitlites/hive_Boxes.dart';
@@ -60,6 +59,7 @@ class HomePageController extends BaseController {
       status.value = e.toString();
       isLoadingSuccess.value = false;
     }
+
   }
 
   void gotoDetail(int index) {

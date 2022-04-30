@@ -48,8 +48,6 @@ class HomePage extends StatelessWidget {
                             color: Colors.transparent,
                           ),
                         ),
-                        // labelText: "Search Companies",
-                        // labelStyle: Theme.of(context).textTheme.subtitle2.copyWith(),
                         suffixIcon: Icon(Icons.search)),),
                 ),
               )
